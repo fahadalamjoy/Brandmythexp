@@ -392,10 +392,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 	flex-wrap: wrap;
 	justify-content: center;
 	justify-content: space-evenly;
-	
+	padding-top: 10px;
 	
 	margin: auto;
     
+}
+.director h3{
+	padding-top: 5px;
 }
 .sectiontitlee {
 	width: 200px;
