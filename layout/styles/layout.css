@@ -78,6 +78,9 @@ File: Layout CSS
 .one_third p{
 	padding-top: 10px;
 }
+#pageintro h4{
+	text-decoration: underline;
+}
 /* Content */
 .container .content{}
 
@@ -378,6 +381,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 	flex-wrap: wrap;
 	
 }
+.others{
+	padding-top: 50px;
+}
 .barrier{
 	padding-top: 50px;
 }
@@ -401,12 +407,17 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 
 .pepdetail  p{
 	margin-top: -8px;
+	text-align: center;
 }
 .pepdetail h5{
 	padding-top: 5px;
+	text-align: center;
+
 }
 .pepdetail h3{
 	color: #C69604;
+	text-align: center;
+
 }
 .pepdetail h5{
 	color: #C69604;
