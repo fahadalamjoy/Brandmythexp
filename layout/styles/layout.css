@@ -71,6 +71,13 @@ File: Layout CSS
 .heading{
 	color: ;
 }
+.sironam2{
+	width: 100%;
+	height: 250px;
+}
+.one_third p{
+	padding-top: 10px;
+}
 /* Content */
 .container .content{}
 
@@ -157,6 +164,7 @@ File: Layout CSS
 #footer .linklist li, #footer .linklist li::after{clear:both;}
 .footerstyle{
 	display: flex;
+	padding-right: 10px;
 	
 }
 .footli{
@@ -342,8 +350,15 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 .row3{color:#ffffff; background-color:#292C35;}
 .row4{color:#FFFFFF; background-color:#000507;}
 .row5, .row5 a{color:#FFFFFF; background-color:#026B8A;}
+.eimage{
+	display: flex;
+	flex-wrap: wrap;
+}
 .evg{
 	margin-top: 20px;
+	width: 50%;
+	height: 50%;
+	padding: 10px;
 }
 
 /* Header */
@@ -357,10 +372,24 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 
 .people{
 	display: flex;
-	padding-top: 40px;
+	padding-top: 12px;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 	
+}
+.barrier{
+	padding-top: 50px;
+}
+.director{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	justify-content: space-evenly;
+	
+	
+	margin: auto;
+    
 }
 .sectiontitlee {
 	width: 200px;
@@ -370,11 +399,11 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 	padding-right: 20px;
 }
 
-.pepdetail h3, p{
-	padding-top: 10px;
+.pepdetail  p{
+	margin-top: -8px;
 }
-.pepdetail h5, p{
-	padding-top: 10px;
+.pepdetail h5{
+	padding-top: 5px;
 }
 .pepdetail h3{
 	color: #C69604;
@@ -387,7 +416,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 }
 .events{
 	margin: auto;
-  width: 80%;
+  width: 90%;
   border: 3px solid #C69604;
   padding: 10px;
 }
@@ -501,7 +530,7 @@ table a, #comments a{background-color:inherit;}
 @media screen and (max-width:750px){
 	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:flex; float:none;}
-	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0;}
+	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:flex;  width:auto; margin:0 0 30px 0;}
 	.last, .group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
 
 	#header{text-align:center;}
