@@ -37,7 +37,7 @@ File: Layout CSS
 #pageintro{padding:200px 0;}
 
 #pageintro article{display:block; max-width:60%; text-transform:capitalize;}
-#pageintro .heading{font-size:5rem;}
+#pageintro .heading{font-size:30rem;}
 #pageintro footer{margin-top:50px;}
 
 
@@ -68,9 +68,13 @@ File: Layout CSS
 	text-align: center;
 
 }
-.heading{
-	color: ;
+.exp{
+	font-size: 6rem;
+	padding-bottom: 30px;
 }
+/* .heading{
+	color: ;
+} */
 .sironam2{
 	width: 100%;
 	/* height: 250px; */
@@ -79,7 +83,7 @@ File: Layout CSS
 	padding-top: 10px;
 }
 #pageintro h4{
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 /* Content */
 .container .content{}
@@ -116,7 +120,13 @@ File: Layout CSS
 #points li span{display:block; position:absolute; top:0; left:0; width:25px; height:25px; line-height:25px; border-radius:50%; text-align:center;}
 
 /* Latest */
-#latest{}
+#latest{
+	display: flex;
+	justify-content: center;
+}
+#latest p{
+	text-align: center;
+}
 #latest > li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
 #latest article{}
 #latest article figure{}
@@ -409,7 +419,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 }
 
 .pepdetail  p{
-	margin-top: -8px;
+	/* margin-top: -8px; */
 	text-align: center;
 }
 .pepdetail h5{
